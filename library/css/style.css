@@ -338,14 +338,17 @@ These are the widths for the mobile grid.
 There are four types, but you can add or customize
 them however you see fit.
 */
+@media (min-width: 320px) { .wrap { width: 96%; margin: 0 auto; } }
+@media (min-width: 768px) { .wrap { width: 96%; margin: 0 auto; } }
+@media (min-width: 1030px) { .wrap { width: 960px; margin: 0 auto; } }
+@media (min-width: 1440px) { .wrap { width: 1280px; } }
+
 @media (min-width: 320px) { .main-wrapper { clear: both; width: 100%; float: left; margin-left: 0; margin-right: 0; } }
-@media (min-width: 1028px) { .main-wrapper { width: 74.5762711864%; float: left; margin-right: 1.6949152542%; } }
+@media (min-width: 1030px) { .main-wrapper { width: 74.5762711864%; float: left; margin-right: 1.6949152542%; } }
 
 @media (min-width: 320px) { .sidebar { display: none; } }
-@media (min-width: 1028px) { .sidebar { display: block; width: 23.7288135593%; float: right; margin-right: 0; } }
+@media (min-width: 1030px) { .sidebar { display: block; width: 23.7288135593%; float: right; margin-right: 0; } }
 
-/* Portrait tablet to landscape */
-/* Landscape to small desktop */
 /*********************
 IMPORTING MODULES
 Modules are reusable blocks or elements we use throughout the project.
@@ -505,11 +508,6 @@ style a page via class
 /* if user is logged in */
 /* paged items like search results or archives */
 /* individual paged (i.e. body.paged-3) */
-/*********************
-LAYOUT & GRID STYLES
-*********************/
-.wrap { width: 96%; margin: 0 auto; }
-
 /*********************
 LINK STYLES
 *********************/
@@ -776,8 +774,6 @@ you can add resource intensive styles.
 *********************/
 @media only screen and (min-width: 768px) { /****************************************************************** Site Name: Author:  Stylesheet: Tablet & Small Desktop Stylesheet  Here's where you can start getting into the good stuff. This size will work on iPads, other tablets, and desktops. So you can start working with more styles, background images, and other resources. You'll also notice the grid starts to come into play. Have fun!  *****************************************************************/
   /********************* GENERAL STYLES ********************/
-  /********************* LAYOUT & GRID STYLES ********************/
-  .wrap { width: 760px; }
   /********************* HEADER STYLES ********************/
   /********************* NAVIGATION STYLES ********************/
   .nav { border: 0; /* end .menu ul li */ /* highlight current page */ /* end current highlighters */ }
@@ -832,8 +828,7 @@ This is the average viewing window. So Desktops, Laptops, and
 in general anyone not viewing on a mobile device. Here's where
 you can add resource intensive styles.
 *********************/
-@media only screen and (min-width: 1030px) { /****************************************************************** Site Name: Author:  Stylesheet: Desktop Stylsheet  This is the desktop size. It's larger than an iPad so it will only be seen on the Desktop.  *****************************************************************/
-  .wrap { width: 1040px; } }
+@media only screen and (min-width: 1030px) { /****************************************************************** Site Name: Author:  Stylesheet: Desktop Stylsheet  This is the desktop size. It's larger than an iPad so it will only be seen on the Desktop.  *****************************************************************/ }
 /*********************
 LARGE VIEWING SIZE
 This is for the larger monitors and possibly full screen viewers.

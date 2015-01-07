@@ -186,7 +186,7 @@ check your menus here. do they look good?
 do they need tweaking?
 */
 /* end .footer-links */
-/******************************************************************
+	/******************************************************************
 Site Name:
 Author:
 
@@ -202,11 +202,6 @@ come into play. Have fun!
 /*********************
 GENERAL STYLES
 *********************/
-/*********************
-LAYOUT & GRID STYLES
-*********************/
-.wrap { width: 760px; }
-
 /*********************
 HEADER STYLES
 *********************/
@@ -282,8 +277,6 @@ This is the desktop size. It's larger than an iPad so it will only
 be seen on the Desktop.
 
 ******************************************************************/
-.wrap { width: 1040px; }
-
 /*
 you can call the larger styles if you want, but there's really no need
 */

@@ -27,48 +27,47 @@ These are the widths for the mobile grid.
 There are four types, but you can add or customize
 them however you see fit.
 */
+// Wrapper
+.wrap {
+  @include breakpoint(320px) {
+    width: 96%;
+    margin: 0 auto;
+  }
+  @include breakpoint(768px) {
+    width: 96%;
+    margin: 0 auto;
+  }
+  @include breakpoint(1030px) {
+    width: 960px;
+    margin: 0 auto;
+  }
+  @include breakpoint(1440px) {
+    width: 1280px;
+  }
 
-.main-wrapper {
 }
-
+// Main Content
 .main-wrapper {
   @include breakpoint(320px) {
     @include full;
   }
-  @include breakpoint(1028px) {
+  @include breakpoint(768px) {
+    
+  }
+  @include breakpoint(1030px) {
     @include span(9 of 12);
   }
 }
-
+//Sidebar(s)
 .sidebar {
   @include breakpoint(320px) {
     display: none;
   }
-  @include breakpoint(1028px) {
+  @include breakpoint(768px) {
+
+  }
+  @include breakpoint(1030px) {
     display: block;
     @include span(3 of 12 last);
   }
 }
-
-@media (max-width: 767px) {
-
-
-
-}
-// end mobile styles
-
-
-/* Portrait tablet to landscape */
-@media (min-width: 768px) and (max-width: 1029px) {
-
-
-}
-// end tablet
-
-/* Landscape to small desktop */
-@media (min-width: 1030px) {
-
-
-
-}
-// end desktop styles
