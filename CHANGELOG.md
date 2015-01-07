@@ -5,8 +5,13 @@ This theme is a customiztion starter theme for wordpress theme development and t
 To know more about Bones, see:
 http://themble.com/bones/
 
+BONES
 Author: Eddie Machado
 
+BLACK BONES
+
+Tony Chiang
+http://walkingho.me
 *******************************************************************
 
 /* 0.1 beta */
